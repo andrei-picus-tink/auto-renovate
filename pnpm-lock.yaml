@@ -25,8 +25,8 @@ importers:
         specifier: ~17.0.11
         version: 17.0.25
       jest:
-        specifier: ~28.0.0
-        version: 28.0.3(@types/node@22.1.0)
+        specifier: ~28.1.0
+        version: 28.1.3(@types/node@22.1.0)
       typescript:
         specifier: ~4.9.5
         version: 4.9.5
@@ -802,8 +802,8 @@ packages:
     resolution: {integrity: sha512-CqRA220YV/6jCo8VWvAt1KKx6eek1VIHMPeLEbpcfSfkEeWyBNppynM/o6q+Wmw+sOhos2ml34wZbSX3G13//g==}
     engines: {node: ^12.13.0 || ^14.15.0 || ^16.10.0 || >=17.0.0}
 
-  jest@28.0.3:
-    resolution: {integrity: sha512-uS+T5J3w5xyzd1KSJCGKhCo8WTJXbNl86f5SW11wgssbandJOVLRKKUxmhdFfmKxhPeksl1hHZ0HaA8VBzp7xA==}
+  jest@28.1.3:
+    resolution: {integrity: sha512-N4GT5on8UkZgH0O5LUavMRV1EDEhNTL0KEfRmDIeZHSV7p2XgLoY9t9VDUgL6o+yfdgYHVxuz81G8oB9VG5uyA==}
     engines: {node: ^12.13.0 || ^14.15.0 || ^16.10.0 || >=17.0.0}
     hasBin: true
     peerDependencies:
@@ -2250,9 +2250,10 @@ snapshots:
       merge-stream: 2.0.0
       supports-color: 8.1.1
 
-  jest@28.0.3(@types/node@22.1.0):
+  jest@28.1.3(@types/node@22.1.0):
     dependencies:
       '@jest/core': 28.1.3
+      '@jest/types': 28.1.3
       import-local: 3.2.0
       jest-cli: 28.1.3(@types/node@22.1.0)
     transitivePeerDependencies:
