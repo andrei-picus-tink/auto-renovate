@@ -15,7 +15,7 @@
     "react-dom": "~17.0.0"
   },
   "devDependencies": {
-    "@sentry/vite-plugin": "2.2.1",
+    "@sentry/vite-plugin": "2.22.1",
     "@tdd-buffet/jest-config": "5.0.0",
     "@types/glob": "7.2.0",
     "@types/jest": "28.1.3",
