@@ -12,6 +12,9 @@
     "automerge": true,
     "automergeType": "branch"
   }, {
+    "matchBaseBranches": ["main"],
+    "enabled": false
+  }, {
     "matchUpdateTypes": "minor",
     "prPriority": 100
   }, {
