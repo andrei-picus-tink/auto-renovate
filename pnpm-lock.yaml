@@ -31,8 +31,8 @@ importers:
         specifier: 25.0.3
         version: 25.0.3
       '@types/lodash':
-        specifier: 4.14.170
-        version: 4.14.170
+        specifier: 4.17.7
+        version: 4.17.7
       '@types/node':
         specifier: 20.14.0
         version: 20.14.0
@@ -1037,8 +1037,8 @@ packages:
   '@types/license-checker@25.0.3':
     resolution: {integrity: sha512-sFkIgeXh6HJR79DbTrZrsHWhfyr3q8v2Gswj3y0tRPEo57OEPVgDF/z/ePybHUGuSCwiDiAt/3YMta9ujUxQpQ==}
 
-  '@types/lodash@4.14.170':
-    resolution: {integrity: sha512-bpcvu/MKHHeYX+qeEN8GE7DIravODWdACVA1ctevD8CN24RhPZIKMn9ntfAsrvLfSX3cR5RrBKAbYm9bGs0A+Q==}
+  '@types/lodash@4.17.7':
+    resolution: {integrity: sha512-8wTvZawATi/lsmNu10/j2hk1KEP0IvjubqPE3cu1Xz7xfXXt5oCq3SNUz4fMIP4XGF9Ky+Ue2tBA3hcS7LSBlA==}
 
   '@types/minimatch@5.1.2':
     resolution: {integrity: sha512-K0VQKziLUWkVKiRVrx4a40iPaxTUefQmjtkQofBkYRcoaaL/8rhwDWww9qWbrgicNOgnpIsMxyNIUM4+n6dUIA==}
@@ -4781,7 +4781,7 @@ snapshots:
 
   '@types/license-checker@25.0.3': {}
 
-  '@types/lodash@4.14.170': {}
+  '@types/lodash@4.17.7': {}
 
   '@types/minimatch@5.1.2': {}
 
