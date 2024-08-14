@@ -28,8 +28,8 @@ importers:
         specifier: ~29.7.0
         version: 29.7.0(@types/node@22.1.0)
       strong-mock:
-        specifier: ~8.0.1
-        version: 8.0.1
+        specifier: ~9.0.0
+        version: 9.0.0
       ts-jest:
         specifier: ~29.2.4
         version: 29.2.4(@babel/core@7.25.2)(@jest/transform@29.7.0)(@jest/types@29.6.3)(babel-jest@29.7.0(@babel/core@7.25.2))(jest@29.7.0(@types/node@22.1.0))(typescript@5.5.4)
@@ -756,6 +756,10 @@ packages:
       ts-node:
         optional: true
 
+  jest-diff@29.4.3:
+    resolution: {integrity: sha512-YB+ocenx7FZ3T5O9lMVMeLYV4265socJKtkwgk/6YUz/VsEzYDkiMuMhWzZmxm3wDRQvayJu/PjkjjSkjoHsCA==}
+    engines: {node: ^14.15.0 || ^16.10.0 || >=18.0.0}
+
   jest-diff@29.7.0:
     resolution: {integrity: sha512-LMIgiIrhigmPrs03JHpxUh2yISK3vLFPkAodPeo0+BuF7wA2FoQbkEg1u8gBYBThncu7e1oEDUfIXVuTqLRUjw==}
     engines: {node: ^14.15.0 || ^16.10.0 || >=18.0.0}
@@ -782,10 +786,6 @@ packages:
 
   jest-leak-detector@29.7.0:
     resolution: {integrity: sha512-kYA8IJcSYtST2BY9I+SMC32nDpBT3J2NvWJx8+JCuCdl/CR1I4EKUJROiP8XtCcxqgTTBGJNdbB1A8XRKbTetw==}
-    engines: {node: ^14.15.0 || ^16.10.0 || >=18.0.0}
-
-  jest-matcher-utils@29.3.1:
-    resolution: {integrity: sha512-fkRMZUAScup3txIKfMe3AIZZmPEjWEdsPJFK3AIy5qRohWqQFg1qrmKfYXR9qEkNc7OdAu2N4KPHibEmy4HPeQ==}
     engines: {node: ^14.15.0 || ^16.10.0 || >=18.0.0}
 
   jest-matcher-utils@29.7.0:
@@ -1127,8 +1127,8 @@ packages:
     resolution: {integrity: sha512-6fPc+R4ihwqP6N/aIv2f1gMH8lOVtWQHoqC4yK6oSDVVocumAsfCqjkXnqiYMhmMwS/mEHLp7Vehlt3ql6lEig==}
     engines: {node: '>=8'}
 
-  strong-mock@8.0.1:
-    resolution: {integrity: sha512-4dtV6JNBaohZTVOMNkJtY1O60GXA9XWSvQIl5lX0obm44ptXuvK5v1uL5rA9C+fLqnsGL5eYHrXFPU5eMEj4RQ==}
+  strong-mock@9.0.0:
+    resolution: {integrity: sha512-sLtDpqWVbbOFdNDjP5uaV4U5BO9eCuPfwiT43JD7SThF59Ivjrd9c3E+XH8CAY4GtBFa3sADpkyueq8YB+TKYA==}
 
   supports-color@5.5.0:
     resolution: {integrity: sha512-QjVjwdXIt408MIiAqCX4oUKsgU2EqAGzs2Ppkm4aQYbjm+ZEWEcW4SfFNTr4uMNZma0ey4f5lgLrkB0aX0QMow==}
@@ -2166,6 +2166,13 @@ snapshots:
       - babel-plugin-macros
       - supports-color
 
+  jest-diff@29.4.3:
+    dependencies:
+      chalk: 4.1.2
+      diff-sequences: 29.6.3
+      jest-get-type: 29.6.3
+      pretty-format: 29.7.0
+
   jest-diff@29.7.0:
     dependencies:
       chalk: 4.1.2
@@ -2214,13 +2221,6 @@ snapshots:
 
   jest-leak-detector@29.7.0:
     dependencies:
-      jest-get-type: 29.6.3
-      pretty-format: 29.7.0
-
-  jest-matcher-utils@29.3.1:
-    dependencies:
-      chalk: 4.1.2
-      jest-diff: 29.7.0
       jest-get-type: 29.6.3
       pretty-format: 29.7.0
 
@@ -2623,10 +2623,12 @@ snapshots:
 
   strip-json-comments@3.1.1: {}
 
-  strong-mock@8.0.1:
+  strong-mock@9.0.0:
     dependencies:
-      jest-matcher-utils: 29.3.1
+      jest-diff: 29.4.3
+      jest-matcher-utils: 29.7.0
       lodash: 4.17.21
+      strip-ansi: 6.0.1
 
   supports-color@5.5.0:
     dependencies:
