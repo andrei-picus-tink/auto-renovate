@@ -3,10 +3,19 @@
   "extends": [
     "config:recommended"
   ],
-  "baseBranches": ["renovate-deps"],
+  "baseBranches": ["main", "renovate-deps"],
+  "prConcurrentLimit": 4,
+  "branchConcurrentLimit": 10,
   "packageRules": [{
     "matchDepTypes": ["devDependencies"],
+    "matchBaseBranches": ["renovate-deps"],
     "automerge": true,
     "automergeType": "branch"
+  }, {
+    "matchUpdateTypes": "minor",
+    "prPriority": 100
+  }, {
+    "matchUpdateTypes": "major",
+    "prPriority": 10
   }]
 }
