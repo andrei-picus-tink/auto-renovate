@@ -4,8 +4,8 @@
     "config:recommended"
   ],
   "baseBranches": ["main", "renovate-deps"],
-  "prConcurrentLimit": 4,
-  "branchConcurrentLimit": 10,
+  "prConcurrentLimit": 5,
+  "branchConcurrentLimit": 20,
   "packageRules": [{
     "matchDepTypes": ["devDependencies"],
     "matchBaseBranches": ["renovate-deps"],
