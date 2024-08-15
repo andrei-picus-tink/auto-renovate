@@ -6,7 +6,7 @@
   "baseBranches": ["main", "renovate-deps"],
   "prConcurrentLimit": 5,
   "branchConcurrentLimit": 20,
-  "commitBody": "Body: {{{body}}} References: {{{references}}} Releases: {{{releases}}}",
+  "commitBody": "Body: {{body}} References: {{references}} Releases: {{releases}}",
   "packageRules": [{
     "matchDepTypes": ["devDependencies"],
     "matchBaseBranches": ["renovate-deps"],
