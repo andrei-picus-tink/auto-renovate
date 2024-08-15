@@ -6,7 +6,9 @@
   "baseBranches": ["main", "renovate-deps"],
   "prConcurrentLimit": 5,
   "branchConcurrentLimit": 20,
-  "commitBody": "Body: {{body}} References: {{references}} Releases: {{releases}}",
+  "commitBodyTable": true,
+  "fetchChangeLogs": "branch",
+  "commitBody": "{{#if logJSON.hasReleaseNotes}}{{#each logJSON.versions as |release|}}{{# if release.releaseNotes}}##### [\\`v{{{release.version}}}\\`]({{{release.releaseNotes.url}}})\n\n{{{release.releaseNotes.body}}}{{/if}}{{/each}}{{/if}}",
   "packageRules": [{
     "matchDepTypes": ["devDependencies"],
     "matchBaseBranches": ["renovate-deps"],
