@@ -55,8 +55,8 @@ importers:
         specifier: 4.3.1
         version: 4.3.1(vite@5.2.6(@types/node@20.14.0))
       dotenv:
-        specifier: 16.0.3
-        version: 16.0.3
+        specifier: 16.4.5
+        version: 16.4.5
       eslint:
         specifier: 8.23.1
         version: 8.23.1
@@ -1606,10 +1606,6 @@ packages:
     resolution: {integrity: sha512-A2is4PLG+eeSfoTMA95/s4pvAoSo2mKtiM5jlHkAVewmiO8ISFTFKZjH7UAM1Atli/OT/7JHOrJRJiMKUZKYBw==}
     engines: {node: '>=12'}
     deprecated: Use your platform's native DOMException instead
-
-  dotenv@16.0.3:
-    resolution: {integrity: sha512-7GO6HghkA5fYG9TYnNxi14/7K9f5occMlp3zXAuSxn7CKCxt9xbNWG7yF8hTCSUchlfWSe3uLmlPfigevRItzQ==}
-    engines: {node: '>=12'}
 
   dotenv@16.4.5:
     resolution: {integrity: sha512-ZmdL2rui+eB2YwhsWzjInR8LldtZHGDoQ1ugH85ppHKwpUHL7j7rN0Ti9NCnGiQbhaZ11FpR+7ao1dNsmduNUg==}
@@ -5334,8 +5330,6 @@ snapshots:
   domexception@4.0.0:
     dependencies:
       webidl-conversions: 7.0.0
-
-  dotenv@16.0.3: {}
 
   dotenv@16.4.5: {}
 
