@@ -8,7 +8,7 @@
   "branchConcurrentLimit": 20,
   "commitBodyTable": true,
   "fetchChangeLogs": "branch",
-  "commitBody": "{{#if logJSON.hasReleaseNotes}}{{#each logJSON.versions as |release|}}{{# if release.releaseNotes}}##### [\\`v{{{release.version}}}\\`]({{{release.releaseNotes.url}}})\n\n{{{release.releaseNotes.body}}}{{/if}}{{/each}}{{/if}}",
+  "commitBody": "{{#if logJSON.hasReleaseNotes}}{{#each logJSON.versions as |release|}}{{# if release.releaseNotes}}## [v{{{release.version}}}]({{{release.releaseNotes.url}}})\n\n{{{release.releaseNotes.body}}}{{/if}}\n\n{{/each}}{{/if}}",
   "packageRules": [{
     "matchDepTypes": ["devDependencies"],
     "matchBaseBranches": ["renovate-deps"],
