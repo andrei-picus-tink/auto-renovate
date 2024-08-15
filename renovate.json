@@ -7,7 +7,7 @@
   "prConcurrentLimit": 5,
   "branchConcurrentLimit": 20,
   "commitBodyTable": true,
-  "commitBody": "{{body}}",
+  "commitBody": "{{{body}}}{{{references}}}{{{releases}}}",
   "packageRules": [{
     "matchDepTypes": ["devDependencies"],
     "matchBaseBranches": ["renovate-deps"],
