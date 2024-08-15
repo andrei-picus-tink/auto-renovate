@@ -41,7 +41,7 @@
     "eslint-plugin-react": "7.31.10",
     "eslint-plugin-react-hooks": "4.6.0",
     "eslint-plugin-unused-imports": "2.0.0",
-    "eslint-plugin-xstate": "1.0.3",
+    "eslint-plugin-xstate": "1.1.3",
     "execa": "5.1.1",
     "glob": "8.0.1",
     "jest": "28.1.3",

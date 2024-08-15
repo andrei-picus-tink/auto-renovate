@@ -94,8 +94,8 @@ importers:
         specifier: 2.0.0
         version: 2.0.0(@typescript-eslint/eslint-plugin@5.39.0(@typescript-eslint/parser@5.39.0(eslint@8.23.1)(typescript@4.7.3))(eslint@8.23.1)(typescript@4.7.3))(eslint@8.23.1)
       eslint-plugin-xstate:
-        specifier: 1.0.3
-        version: 1.0.3(eslint@8.23.1)
+        specifier: 1.1.3
+        version: 1.1.3(eslint@8.23.1)
       execa:
         specifier: 5.1.1
         version: 5.1.1
@@ -1808,8 +1808,8 @@ packages:
       '@typescript-eslint/eslint-plugin':
         optional: true
 
-  eslint-plugin-xstate@1.0.3:
-    resolution: {integrity: sha512-Qsyu5ov01K0oj8B78lfgQn57XSztgemNSsAWpgOusDuU6rIGB0SXoL6TdOJ2ccgIg2/7KTypgPkme52kJeTk0A==}
+  eslint-plugin-xstate@1.1.3:
+    resolution: {integrity: sha512-FF2D/K+M4nenz+OJrNQjqnFwaKU2K8ZW9uJbNU053MnhwO4uVchF/Nj4oZgHRP/AQt9trplMPyHjPwDcVOr8Gw==}
     engines: {node: '>=8.0.0'}
     peerDependencies:
       eslint: ^7.1.0||^8.17.0
@@ -5623,7 +5623,7 @@ snapshots:
     optionalDependencies:
       '@typescript-eslint/eslint-plugin': 5.39.0(@typescript-eslint/parser@5.39.0(eslint@8.23.1)(typescript@4.7.3))(eslint@8.23.1)(typescript@4.7.3)
 
-  eslint-plugin-xstate@1.0.3(eslint@8.23.1):
+  eslint-plugin-xstate@1.1.3(eslint@8.23.1):
     dependencies:
       eslint: 8.23.1
       lodash.camelcase: 4.3.0
