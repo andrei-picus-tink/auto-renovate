@@ -79,8 +79,8 @@ importers:
         specifier: 6.9.0
         version: 6.9.0(eslint@8.23.1)
       eslint-plugin-local-rules:
-        specifier: 1.3.2
-        version: 1.3.2
+        specifier: 3.0.2
+        version: 3.0.2
       eslint-plugin-prettier:
         specifier: 4.2.1
         version: 4.2.1(eslint-config-prettier@9.1.0(eslint@8.23.1))(eslint@8.23.1)(prettier@2.8.8)
@@ -1828,8 +1828,8 @@ packages:
     peerDependencies:
       eslint: ^3 || ^4 || ^5 || ^6 || ^7 || ^8
 
-  eslint-plugin-local-rules@1.3.2:
-    resolution: {integrity: sha512-X4ziX+cjlCYnZa+GB1ly3mmj44v2PeIld3tQVAxelY6AMrhHSjz6zsgsT6nt0+X5b7eZnvL/O7Q3pSSK2kF/+Q==}
+  eslint-plugin-local-rules@3.0.2:
+    resolution: {integrity: sha512-IWME7GIYHXogTkFsToLdBCQVJ0U4kbSuVyDT+nKoR4UgtnVrrVeNWuAZkdEu1nxkvi9nsPccGehEEF6dgA28IQ==}
 
   eslint-plugin-prettier@4.2.1:
     resolution: {integrity: sha512-f/0rXLXUt0oFYs8ra4w49wYZBG5GKZpAYsJSm6rnYL5uVDjd+zowwMwVZHnAjf4edNrKpCDYfXDgmRE/Ak7QyQ==}
@@ -5933,7 +5933,7 @@ snapshots:
       safe-regex-test: 1.0.3
       string.prototype.includes: 2.0.0
 
-  eslint-plugin-local-rules@1.3.2: {}
+  eslint-plugin-local-rules@3.0.2: {}
 
   eslint-plugin-prettier@4.2.1(eslint-config-prettier@9.1.0(eslint@8.23.1))(eslint@8.23.1)(prettier@2.8.8):
     dependencies:
