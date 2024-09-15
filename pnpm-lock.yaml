@@ -121,8 +121,8 @@ importers:
         specifier: 16.9.0
         version: 16.9.0(typescript@4.9.5)
       stylelint-config-recommended:
-        specifier: 8.0.0
-        version: 8.0.0(stylelint@16.9.0(typescript@4.9.5))
+        specifier: 14.0.1
+        version: 14.0.1(stylelint@16.9.0(typescript@4.9.5))
       stylelint-config-styled-components:
         specifier: 0.1.1
         version: 0.1.1
@@ -3540,10 +3540,11 @@ packages:
   strong-mock@8.0.1:
     resolution: {integrity: sha512-4dtV6JNBaohZTVOMNkJtY1O60GXA9XWSvQIl5lX0obm44ptXuvK5v1uL5rA9C+fLqnsGL5eYHrXFPU5eMEj4RQ==}
 
-  stylelint-config-recommended@8.0.0:
-    resolution: {integrity: sha512-IK6dWvE000+xBv9jbnHOnBq01gt6HGVB2ZTsot+QsMpe82doDQ9hvplxfv4YnpEuUwVGGd9y6nbaAnhrjcxhZQ==}
+  stylelint-config-recommended@14.0.1:
+    resolution: {integrity: sha512-bLvc1WOz/14aPImu/cufKAZYfXs/A/owZfSMZ4N+16WGXLoX5lOir53M6odBxvhgmgdxCVnNySJmZKx73T93cg==}
+    engines: {node: '>=18.12.0'}
     peerDependencies:
-      stylelint: ^14.8.0
+      stylelint: ^16.1.0
 
   stylelint-config-styled-components@0.1.1:
     resolution: {integrity: sha512-z5Xz/9GmvxO6e/DLzBMwkB85zHxEEjN6K7Cj80Bi+o/9vR9eS3GX3E9VuMnX9WLFYulqbqLtTapGGY28JBiy9Q==}
@@ -8159,7 +8160,7 @@ snapshots:
       jest-matcher-utils: 29.3.1
       lodash: 4.17.21
 
-  stylelint-config-recommended@8.0.0(stylelint@16.9.0(typescript@4.9.5)):
+  stylelint-config-recommended@14.0.1(stylelint@16.9.0(typescript@4.9.5)):
     dependencies:
       stylelint: 16.9.0(typescript@4.9.5)
 
