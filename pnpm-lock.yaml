@@ -16,8 +16,8 @@ importers:
         version: 17.0.2(react@17.0.2)
     devDependencies:
       '@sentry/vite-plugin':
-        specifier: 2.22.1
-        version: 2.22.1
+        specifier: 2.22.4
+        version: 2.22.4
       '@tdd-buffet/jest-config':
         specifier: 6.0.0
         version: 6.0.0(@babel/core@7.25.2)(babel-jest@29.7.0(@babel/core@7.25.2))(jest@29.7.0(@types/node@20.16.0)(ts-node@10.9.1(@swc/core@1.7.10)(@types/node@20.16.0)(typescript@5.6.2)))(typescript@5.6.2)
@@ -838,12 +838,12 @@ packages:
   '@sec-ant/readable-stream@0.4.1':
     resolution: {integrity: sha512-831qok9r2t8AlxLko40y2ebgSDhenenCatLVeW/uBtnHPyhHOvG0C7TvfgecV+wHzIm5KUICgzmVpWS+IMEAeg==}
 
-  '@sentry/babel-plugin-component-annotate@2.22.1':
-    resolution: {integrity: sha512-rQEk8EeCIBQKivWNONllQhd/wGbfuK/WXJRM6TkjeikM3wrqJf4AmIBXoA6eg089DwBFzBaxGjjLWJNHKY440w==}
+  '@sentry/babel-plugin-component-annotate@2.22.4':
+    resolution: {integrity: sha512-hbSq067KwmeKIEkmyzkTNJbmbtx2KRqvpiy9Q/DynI5Z46Nko/ppvgIfyFXK9DelwvEPOqZic4WXTIhO4iv3DA==}
     engines: {node: '>= 14'}
 
-  '@sentry/bundler-plugin-core@2.22.1':
-    resolution: {integrity: sha512-RFbS57zfPvUBe4DL/pjt6BWCEyGFkk/n4gLNZQ9Cf2gRdUVW80AtAMZwrlEELrpW1D8kONy6/kvWf0leicHRMg==}
+  '@sentry/bundler-plugin-core@2.22.4':
+    resolution: {integrity: sha512-25NiyV3v6mdqOXlpzbbJnq0FHdAu1uTEDr+DU8CzNLjIXlq2Sr2CFZ/mhRcR6daM8OAretJdQ34lu0yHUVeE4Q==}
     engines: {node: '>= 14'}
 
   '@sentry/cli-darwin@2.33.1':
@@ -892,8 +892,8 @@ packages:
     engines: {node: '>= 10'}
     hasBin: true
 
-  '@sentry/vite-plugin@2.22.1':
-    resolution: {integrity: sha512-TC+3RIcu0rnxaEPV8ZHjYlRHLx5M9eRDI2il1lFkSguTc0N89n7Tt/aDnFAwtaPG4yqPkhIMpxi7LfXx+YDJ1Q==}
+  '@sentry/vite-plugin@2.22.4':
+    resolution: {integrity: sha512-C51PUlTv0BXN3+e9SjPHptNX3b9E0clrsaR5c//l/sFkQjuteDHKChA1gNzZSvfoa3gm9NzZAgpk3hVF2O3nBA==}
     engines: {node: '>= 14'}
 
   '@sinclair/typebox@0.27.8':
@@ -4695,12 +4695,12 @@ snapshots:
 
   '@sec-ant/readable-stream@0.4.1': {}
 
-  '@sentry/babel-plugin-component-annotate@2.22.1': {}
+  '@sentry/babel-plugin-component-annotate@2.22.4': {}
 
-  '@sentry/bundler-plugin-core@2.22.1':
+  '@sentry/bundler-plugin-core@2.22.4':
     dependencies:
       '@babel/core': 7.25.2
-      '@sentry/babel-plugin-component-annotate': 2.22.1
+      '@sentry/babel-plugin-component-annotate': 2.22.4
       '@sentry/cli': 2.33.1
       dotenv: 16.4.5
       find-up: 5.0.0
@@ -4751,9 +4751,9 @@ snapshots:
       - encoding
       - supports-color
 
-  '@sentry/vite-plugin@2.22.1':
+  '@sentry/vite-plugin@2.22.4':
     dependencies:
-      '@sentry/bundler-plugin-core': 2.22.1
+      '@sentry/bundler-plugin-core': 2.22.4
       unplugin: 1.0.1
     transitivePeerDependencies:
       - encoding
