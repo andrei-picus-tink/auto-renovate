@@ -28,8 +28,8 @@ importers:
         specifier: 29.5.13
         version: 29.5.13
       '@types/license-checker':
-        specifier: 25.0.3
-        version: 25.0.3
+        specifier: 25.0.6
+        version: 25.0.6
       '@types/lodash':
         specifier: 4.17.7
         version: 4.17.7
@@ -1054,8 +1054,8 @@ packages:
   '@types/jsonfile@6.1.4':
     resolution: {integrity: sha512-D5qGUYwjvnNNextdU59/+fI+spnwtTFmyQP0h+PfIOSkNfpU6AOICUOkm4i0OnSk+NyjdPJrxCDro0sJsWlRpQ==}
 
-  '@types/license-checker@25.0.3':
-    resolution: {integrity: sha512-sFkIgeXh6HJR79DbTrZrsHWhfyr3q8v2Gswj3y0tRPEo57OEPVgDF/z/ePybHUGuSCwiDiAt/3YMta9ujUxQpQ==}
+  '@types/license-checker@25.0.6':
+    resolution: {integrity: sha512-ju/75+YPkNE5vX1iPer+qtI1eI/LqJVYZgOsmSHI1iiEM1bQL5Gh1lEvyjR9T7ZXVE1FwJa2doWJEEmPNwbZkw==}
 
   '@types/lodash@4.17.7':
     resolution: {integrity: sha512-8wTvZawATi/lsmNu10/j2hk1KEP0IvjubqPE3cu1Xz7xfXXt5oCq3SNUz4fMIP4XGF9Ky+Ue2tBA3hcS7LSBlA==}
@@ -4923,7 +4923,7 @@ snapshots:
     dependencies:
       '@types/node': 20.16.0
 
-  '@types/license-checker@25.0.3': {}
+  '@types/license-checker@25.0.6': {}
 
   '@types/lodash@4.17.7': {}
 

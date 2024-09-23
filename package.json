@@ -19,7 +19,7 @@
     "@tdd-buffet/jest-config": "6.0.0",
     "@types/glob": "8.1.0",
     "@types/jest": "29.5.13",
-    "@types/license-checker": "25.0.3",
+    "@types/license-checker": "25.0.6",
     "@types/lodash": "4.17.7",
     "@types/node": "20.16.0",
     "@types/react": "17.0.13",
