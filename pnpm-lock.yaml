@@ -53,7 +53,7 @@ importers:
         version: 8.11.0(eslint@8.23.1)(typescript@5.6.3)
       '@vitejs/plugin-react':
         specifier: 4.3.3
-        version: 4.3.3(vite@5.4.9(@types/node@20.16.11))
+        version: 4.3.3(vite@5.4.10(@types/node@20.16.11))
       dotenv:
         specifier: 16.4.5
         version: 16.4.5
@@ -136,17 +136,17 @@ importers:
         specifier: 5.6.3
         version: 5.6.3
       vite:
-        specifier: 5.4.9
-        version: 5.4.9(@types/node@20.16.11)
+        specifier: 5.4.10
+        version: 5.4.10(@types/node@20.16.11)
       vite-plugin-checker:
         specifier: 0.8.0
-        version: 0.8.0(eslint@8.23.1)(meow@9.0.0)(optionator@0.9.4)(stylelint@16.10.0(typescript@5.6.3))(typescript@5.6.3)(vite@5.4.9(@types/node@20.16.11))
+        version: 0.8.0(eslint@8.23.1)(meow@9.0.0)(optionator@0.9.4)(stylelint@16.10.0(typescript@5.6.3))(typescript@5.6.3)(vite@5.4.10(@types/node@20.16.11))
       vite-plugin-ejs:
         specifier: 1.7.0
-        version: 1.7.0(vite@5.4.9(@types/node@20.16.11))
+        version: 1.7.0(vite@5.4.10(@types/node@20.16.11))
       vite-tsconfig-paths:
         specifier: 5.0.1
-        version: 5.0.1(typescript@5.6.3)(vite@5.4.9(@types/node@20.16.11))
+        version: 5.0.1(typescript@5.6.3)(vite@5.4.10(@types/node@20.16.11))
       yargs:
         specifier: 17.7.2
         version: 17.7.2
@@ -3743,8 +3743,8 @@ packages:
       vite:
         optional: true
 
-  vite@5.4.9:
-    resolution: {integrity: sha512-20OVpJHh0PAM0oSOELa5GaZNWeDjcAvQjGXy2Uyr+Tp+/D2/Hdz6NLgpJLsarPTA2QJ6v8mX2P1ZfbsSKvdMkg==}
+  vite@5.4.10:
+    resolution: {integrity: sha512-1hvaPshuPUtxeQ0hsVH3Mud0ZanOLwVTneA1EgbAM5LhaZEqyPWGRQ7BtaMvUrTDeEaC8pxtj6a6jku3x4z6SQ==}
     engines: {node: ^18.0.0 || >=20.0.0}
     hasBin: true
     peerDependencies:
@@ -5063,14 +5063,14 @@ snapshots:
       '@typescript-eslint/types': 8.11.0
       eslint-visitor-keys: 3.4.3
 
-  '@vitejs/plugin-react@4.3.3(vite@5.4.9(@types/node@20.16.11))':
+  '@vitejs/plugin-react@4.3.3(vite@5.4.10(@types/node@20.16.11))':
     dependencies:
       '@babel/core': 7.25.2
       '@babel/plugin-transform-react-jsx-self': 7.24.7(@babel/core@7.25.2)
       '@babel/plugin-transform-react-jsx-source': 7.24.7(@babel/core@7.25.2)
       '@types/babel__core': 7.20.5
       react-refresh: 0.14.2
-      vite: 5.4.9(@types/node@20.16.11)
+      vite: 5.4.10(@types/node@20.16.11)
     transitivePeerDependencies:
       - supports-color
 
@@ -8098,7 +8098,7 @@ snapshots:
       spdx-correct: 3.2.0
       spdx-expression-parse: 3.0.1
 
-  vite-plugin-checker@0.8.0(eslint@8.23.1)(meow@9.0.0)(optionator@0.9.4)(stylelint@16.10.0(typescript@5.6.3))(typescript@5.6.3)(vite@5.4.9(@types/node@20.16.11)):
+  vite-plugin-checker@0.8.0(eslint@8.23.1)(meow@9.0.0)(optionator@0.9.4)(stylelint@16.10.0(typescript@5.6.3))(typescript@5.6.3)(vite@5.4.10(@types/node@20.16.11)):
     dependencies:
       '@babel/code-frame': 7.24.7
       ansi-escapes: 4.3.2
@@ -8110,7 +8110,7 @@ snapshots:
       npm-run-path: 4.0.1
       strip-ansi: 6.0.1
       tiny-invariant: 1.3.3
-      vite: 5.4.9(@types/node@20.16.11)
+      vite: 5.4.10(@types/node@20.16.11)
       vscode-languageclient: 7.0.0
       vscode-languageserver: 7.0.0
       vscode-languageserver-textdocument: 1.0.12
@@ -8122,23 +8122,23 @@ snapshots:
       stylelint: 16.10.0(typescript@5.6.3)
       typescript: 5.6.3
 
-  vite-plugin-ejs@1.7.0(vite@5.4.9(@types/node@20.16.11)):
+  vite-plugin-ejs@1.7.0(vite@5.4.10(@types/node@20.16.11)):
     dependencies:
       ejs: 3.1.10
-      vite: 5.4.9(@types/node@20.16.11)
+      vite: 5.4.10(@types/node@20.16.11)
 
-  vite-tsconfig-paths@5.0.1(typescript@5.6.3)(vite@5.4.9(@types/node@20.16.11)):
+  vite-tsconfig-paths@5.0.1(typescript@5.6.3)(vite@5.4.10(@types/node@20.16.11)):
     dependencies:
       debug: 4.3.6
       globrex: 0.1.2
       tsconfck: 3.1.1(typescript@5.6.3)
     optionalDependencies:
-      vite: 5.4.9(@types/node@20.16.11)
+      vite: 5.4.10(@types/node@20.16.11)
     transitivePeerDependencies:
       - supports-color
       - typescript
 
-  vite@5.4.9(@types/node@20.16.11):
+  vite@5.4.10(@types/node@20.16.11):
     dependencies:
       esbuild: 0.21.5
       postcss: 8.4.47
