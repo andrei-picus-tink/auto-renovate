@@ -18,7 +18,7 @@
     "@sentry/vite-plugin": "2.22.6",
     "@tdd-buffet/jest-config": "6.0.0",
     "@types/glob": "8.1.0",
-    "@types/jest": "29.5.13",
+    "@types/jest": "29.5.14",
     "@types/license-checker": "25.0.6",
     "@types/lodash": "4.17.12",
     "@types/node": "20.16.11",
