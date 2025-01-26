@@ -118,11 +118,11 @@ importers:
         specifier: ~8.0.1
         version: 8.0.1
       stylelint:
-        specifier: 16.13.0
-        version: 16.13.0(typescript@5.7.2)
+        specifier: 16.14.0
+        version: 16.14.0(typescript@5.7.2)
       stylelint-config-recommended:
         specifier: 15.0.0
-        version: 15.0.0(stylelint@16.13.0(typescript@5.7.2))
+        version: 15.0.0(stylelint@16.14.0(typescript@5.7.2))
       stylelint-config-styled-components:
         specifier: 0.1.1
         version: 0.1.1
@@ -140,7 +140,7 @@ importers:
         version: 6.0.7(@types/node@22.10.5)
       vite-plugin-checker:
         specifier: 0.8.0
-        version: 0.8.0(eslint@8.23.1)(meow@9.0.0)(optionator@0.9.4)(stylelint@16.13.0(typescript@5.7.2))(typescript@5.7.2)(vite@6.0.7(@types/node@22.10.5))
+        version: 0.8.0(eslint@8.23.1)(meow@9.0.0)(optionator@0.9.4)(stylelint@16.14.0(typescript@5.7.2))(typescript@5.7.2)(vite@6.0.7(@types/node@22.10.5))
       vite-plugin-ejs:
         specifier: 1.7.0
         version: 1.7.0(vite@6.0.7(@types/node@22.10.5))
@@ -2312,8 +2312,8 @@ packages:
     resolution: {integrity: sha512-hsBTNUqQTDwkWtcdYI2i06Y/nUBEsNEDJKjWdigLvegy8kDuJAS8uRlpkkcQpyEXL0Z/pjDy5HBmMjRCJ2gq+g==}
     engines: {node: '>= 4'}
 
-  ignore@7.0.0:
-    resolution: {integrity: sha512-lcX8PNQygAa22u/0BysEY8VhaFRzlOkvdlKczDPnJvrkJD1EuqzEky5VYYKM2iySIuaVIDv9N190DfSreSLw2A==}
+  ignore@7.0.3:
+    resolution: {integrity: sha512-bAH5jbK/F3T3Jls4I0SO1hmPR0dKU0a7+SY6n1yzRtG54FLO8d6w/nxLFX2Nb7dBu6cCWXPaAME6cYqFUMmuCA==}
     engines: {node: '>= 4'}
 
   import-fresh@3.3.0:
@@ -2917,6 +2917,11 @@ packages:
     engines: {node: ^10 || ^12 || ^13.7 || ^14 || >=15.0.1}
     hasBin: true
 
+  nanoid@3.3.8:
+    resolution: {integrity: sha512-WNLf5Sd8oZxOm+TzppcYk8gVOgP+l58xNy58D0nbUnOxOWRWvlcCV4kUF7ltmI6PsrLl/BgKEyS4mqsGChFN0w==}
+    engines: {node: ^10 || ^12 || ^13.7 || ^14 || >=15.0.1}
+    hasBin: true
+
   natural-compare@1.4.0:
     resolution: {integrity: sha512-OWND8ei3VtNC9h7V60qff3SVobHr996CTwgxubgyQYEpg290h9J0buyECNNJexkFm5sOajh5G116RYA1c8ZMSw==}
 
@@ -3143,6 +3148,10 @@ packages:
 
   postcss@8.4.49:
     resolution: {integrity: sha512-OCVPnIObs4N29kxTjzLfUryOkvZEq+pf8jTF0lg8E7uETuWHA+v7j3c/xJmiqpX450191LlmZfUKkXxkTry7nA==}
+    engines: {node: ^10 || ^12 || >=14}
+
+  postcss@8.5.1:
+    resolution: {integrity: sha512-6oz2beyjc5VMn/KV1pPw8fliQkhBXrVn1Z3TVyqZxU8kZpzEKhBdmCFqI6ZbmGtamQvQGuU1sgPTk8ZrXDD7jQ==}
     engines: {node: ^10 || ^12 || >=14}
 
   prelude-ls@1.2.1:
@@ -3526,8 +3535,8 @@ packages:
   stylelint-processor-styled-components@1.10.0:
     resolution: {integrity: sha512-g4HpN9rm0JD0LoHuIOcd/FIjTZCJ0ErQ+dC3VTxp+dSvnkV+MklKCCmCQEdz5K5WxF4vPuzfVgdbSDuPYGZhoA==}
 
-  stylelint@16.13.0:
-    resolution: {integrity: sha512-muxVjMhZB8BrDFSKNva0dmvD2tM0o/szrvuZuXYcAnN9a8nQmbGLqNUOemSgumaCMCPQ+0USYyG3hA5vJjUC1Q==}
+  stylelint@16.14.0:
+    resolution: {integrity: sha512-orePw2dKxzXC0hd1VmxrDBqgf1KUV9DYsZY4guKLE9XcQD7m0BxVnWMaoQqMNsQIG14MyyTHf6zoajvOnDra8g==}
     engines: {node: '>=18.12.0'}
     hasBin: true
 
@@ -6581,7 +6590,7 @@ snapshots:
 
   ignore@5.3.2: {}
 
-  ignore@7.0.0: {}
+  ignore@7.0.3: {}
 
   import-fresh@3.3.0:
     dependencies:
@@ -7401,6 +7410,8 @@ snapshots:
 
   nanoid@3.3.7: {}
 
+  nanoid@3.3.8: {}
+
   natural-compare@1.4.0: {}
 
   node-fetch@2.7.0:
@@ -7606,9 +7617,9 @@ snapshots:
 
   postcss-resolve-nested-selector@0.1.6: {}
 
-  postcss-safe-parser@7.0.1(postcss@8.4.49):
+  postcss-safe-parser@7.0.1(postcss@8.5.1):
     dependencies:
-      postcss: 8.4.49
+      postcss: 8.5.1
 
   postcss-selector-parser@7.0.0:
     dependencies:
@@ -7625,6 +7636,12 @@ snapshots:
   postcss@8.4.49:
     dependencies:
       nanoid: 3.3.7
+      picocolors: 1.1.1
+      source-map-js: 1.2.1
+
+  postcss@8.5.1:
+    dependencies:
+      nanoid: 3.3.8
       picocolors: 1.1.1
       source-map-js: 1.2.1
 
@@ -8060,9 +8077,9 @@ snapshots:
       jest-matcher-utils: 29.3.1
       lodash: 4.17.21
 
-  stylelint-config-recommended@15.0.0(stylelint@16.13.0(typescript@5.7.2)):
+  stylelint-config-recommended@15.0.0(stylelint@16.14.0(typescript@5.7.2)):
     dependencies:
-      stylelint: 16.13.0(typescript@5.7.2)
+      stylelint: 16.14.0(typescript@5.7.2)
 
   stylelint-config-styled-components@0.1.1: {}
 
@@ -8075,7 +8092,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  stylelint@16.13.0(typescript@5.7.2):
+  stylelint@16.14.0(typescript@5.7.2):
     dependencies:
       '@csstools/css-parser-algorithms': 3.0.4(@csstools/css-tokenizer@3.0.3)
       '@csstools/css-tokenizer': 3.0.3
@@ -8095,7 +8112,7 @@ snapshots:
       globby: 11.1.0
       globjoin: 0.1.4
       html-tags: 3.3.1
-      ignore: 7.0.0
+      ignore: 7.0.3
       imurmurhash: 0.1.4
       is-plain-object: 5.0.0
       known-css-properties: 0.35.0
@@ -8104,9 +8121,9 @@ snapshots:
       micromatch: 4.0.8
       normalize-path: 3.0.0
       picocolors: 1.1.1
-      postcss: 8.4.49
+      postcss: 8.5.1
       postcss-resolve-nested-selector: 0.1.6
-      postcss-safe-parser: 7.0.1(postcss@8.4.49)
+      postcss-safe-parser: 7.0.1(postcss@8.5.1)
       postcss-selector-parser: 7.0.0
       postcss-value-parser: 4.2.0
       resolve-from: 5.0.0
@@ -8367,7 +8384,7 @@ snapshots:
       spdx-correct: 3.2.0
       spdx-expression-parse: 3.0.1
 
-  vite-plugin-checker@0.8.0(eslint@8.23.1)(meow@9.0.0)(optionator@0.9.4)(stylelint@16.13.0(typescript@5.7.2))(typescript@5.7.2)(vite@6.0.7(@types/node@22.10.5)):
+  vite-plugin-checker@0.8.0(eslint@8.23.1)(meow@9.0.0)(optionator@0.9.4)(stylelint@16.14.0(typescript@5.7.2))(typescript@5.7.2)(vite@6.0.7(@types/node@22.10.5)):
     dependencies:
       '@babel/code-frame': 7.24.7
       ansi-escapes: 4.3.2
@@ -8388,7 +8405,7 @@ snapshots:
       eslint: 8.23.1
       meow: 9.0.0
       optionator: 0.9.4
-      stylelint: 16.13.0(typescript@5.7.2)
+      stylelint: 16.14.0(typescript@5.7.2)
       typescript: 5.7.2
 
   vite-plugin-ejs@1.7.0(vite@6.0.7(@types/node@22.10.5)):
