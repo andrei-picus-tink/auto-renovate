@@ -21,7 +21,7 @@
     "@types/jest": "29.5.14",
     "@types/license-checker": "25.0.6",
     "@types/lodash": "4.17.15",
-    "@types/node": "22.13.1",
+    "@types/node": "22.13.4",
     "@types/react": "17.0.83",
     "@types/react-dom": "17.0.26",
     "@types/yargs": "17.0.33",
