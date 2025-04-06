@@ -37,11 +37,11 @@ importers:
         specifier: 22.14.0
         version: 22.14.0
       '@types/react':
-        specifier: 17.0.83
-        version: 17.0.83
+        specifier: 17.0.85
+        version: 17.0.85
       '@types/react-dom':
         specifier: 17.0.26
-        version: 17.0.26(@types/react@17.0.83)
+        version: 17.0.26(@types/react@17.0.85)
       '@types/yargs':
         specifier: 17.0.33
         version: 17.0.33
@@ -1192,8 +1192,8 @@ packages:
     peerDependencies:
       '@types/react': ^17.0.0
 
-  '@types/react@17.0.83':
-    resolution: {integrity: sha512-l0m4ArKJvmFtR4e8UmKrj1pB4tUgOhJITf+mADyF/p69Ts1YAR/E+G9XEM0mHXKVRa1dQNHseyyDNzeuAXfXQw==}
+  '@types/react@17.0.85':
+    resolution: {integrity: sha512-5oBDUsRDsrYq4DdyHaL99gE1AJCfuDhyxqF6/55fvvOIRkp1PpKuwJ+aMiGJR+GJt7YqMNclPROTHF20vY2cXA==}
 
   '@types/scheduler@0.16.8':
     resolution: {integrity: sha512-WZLiwShhwLRmeV6zH+GkbOFT6Z6VklCItrDioxUnv+u4Ll+8vKeFySoFyK/0ctcRpOmwAicELfmys1sDc/Rw+A==}
@@ -5530,11 +5530,11 @@ snapshots:
 
   '@types/prop-types@15.7.12': {}
 
-  '@types/react-dom@17.0.26(@types/react@17.0.83)':
+  '@types/react-dom@17.0.26(@types/react@17.0.85)':
     dependencies:
-      '@types/react': 17.0.83
+      '@types/react': 17.0.85
 
-  '@types/react@17.0.83':
+  '@types/react@17.0.85':
     dependencies:
       '@types/prop-types': 15.7.12
       '@types/scheduler': 0.16.8
