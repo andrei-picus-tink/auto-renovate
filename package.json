@@ -17,7 +17,7 @@
   "devDependencies": {
     "@sentry/vite-plugin": "4.1.1",
     "@tdd-buffet/jest-config": "6.0.0",
-    "@types/glob": "8.1.0",
+    "@types/glob": "9.0.0",
     "@types/jest": "29.5.14",
     "@types/license-checker": "25.0.6",
     "@types/lodash": "4.17.16",
