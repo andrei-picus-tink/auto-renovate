@@ -57,7 +57,7 @@
     "stylelint-processor-styled-components": "1.10.0",
     "ts-node": "10.9.2",
     "typescript": "5.9.2",
-    "vite": "7.1.4",
+    "vite": "7.1.7",
     "vite-plugin-checker": "0.10.2",
     "vite-plugin-ejs": "1.7.0",
     "vite-tsconfig-paths": "5.1.4",
