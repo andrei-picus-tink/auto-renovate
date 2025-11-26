@@ -22,7 +22,7 @@
     "@types/license-checker": "25.0.6",
     "@types/lodash": "4.17.21",
     "@types/node": "22.19.1",
-    "@types/react": "17.0.89",
+    "@types/react": "17.0.90",
     "@types/react-dom": "17.0.26",
     "@types/yargs": "17.0.34",
     "@typescript-eslint/eslint-plugin": "8.48.0",
