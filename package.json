@@ -44,7 +44,7 @@
     "eslint-plugin-xstate": "3.2.1",
     "execa": "9.6.1",
     "glob": "13.0.6",
-    "jest": "30.3.0",
+    "jest": "30.4.2",
     "license-checker": "25.0.1",
     "octokit": "5.0.5",
     "prettier": "3.8.1",
