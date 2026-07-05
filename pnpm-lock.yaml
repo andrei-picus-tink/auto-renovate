@@ -142,8 +142,8 @@ importers:
         specifier: 0.14.1
         version: 0.14.1(eslint@8.57.1)(meow@14.1.0)(optionator@0.9.4)(stylelint@17.14.0(typescript@5.9.3))(typescript@5.9.3)(vite@8.1.0(@types/node@22.20.0))
       vite-plugin-ejs:
-        specifier: 1.8.0
-        version: 1.8.0(vite@8.1.0(@types/node@22.20.0))
+        specifier: 2.0.0
+        version: 2.0.0(ejs@6.0.1)(vite@8.1.0(@types/node@22.20.0))
       vite-tsconfig-paths:
         specifier: 6.1.1
         version: 6.1.1(typescript@5.9.3)(vite@8.1.0(@types/node@22.20.0))
@@ -4322,9 +4322,10 @@ packages:
       vue-tsc:
         optional: true
 
-  vite-plugin-ejs@1.8.0:
-    resolution: {integrity: sha512-hfZQro418CaRRplB7dfqe5la+dr4GRv/f4bwdMn6Rufz0l4B2mMqcEUJ+wiAUqlNWLsRDtZJUNcguUDGPFNACg==}
+  vite-plugin-ejs@2.0.0:
+    resolution: {integrity: sha512-oz72iYfUTgFVl1SVRkaNYsRUx/THorgknwyRvhwBu3RMaigibKcl0T4tkUXw0h8w5JmnBEfPCKcingmTxen3Ng==}
     peerDependencies:
+      ejs: '>=3'
       vite: '>=5.0.0'
 
   vite-tsconfig-paths@6.1.1:
@@ -9757,7 +9758,7 @@ snapshots:
       stylelint: 17.14.0(typescript@5.9.3)
       typescript: 5.9.3
 
-  vite-plugin-ejs@1.8.0(vite@8.1.0(@types/node@22.20.0)):
+  vite-plugin-ejs@2.0.0(ejs@6.0.1)(vite@8.1.0(@types/node@22.20.0)):
     dependencies:
       ejs: 6.0.1
       vite: 8.1.0(@types/node@22.20.0)
