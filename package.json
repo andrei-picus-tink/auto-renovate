@@ -61,6 +61,6 @@
     "vite-plugin-checker": "0.14.1",
     "vite-plugin-ejs": "2.0.0",
     "vite-tsconfig-paths": "6.1.1",
-    "yargs": "18.0.0"
+    "yargs": "18.1.0"
   }
 }
