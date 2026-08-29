@@ -11,8 +11,8 @@
     "url": "https://github.com/andrei-picus-tink/auto-renovate.git"
   },
   "dependencies": {
-    "react": "~17.0.0",
-    "react-dom": "~17.0.0"
+    "react": "~19.2.0",
+    "react-dom": "~19.2.0"
   },
   "devDependencies": {
     "@sentry/vite-plugin": "5.4.0",
@@ -22,8 +22,8 @@
     "@types/license-checker": "25.0.6",
     "@types/lodash": "4.17.25",
     "@types/node": "22.20.1",
-    "@types/react": "17.0.93",
-    "@types/react-dom": "17.0.26",
+    "@types/react": "19.2.18",
+    "@types/react-dom": "19.2.5",
     "@types/yargs": "17.0.35",
     "@typescript-eslint/eslint-plugin": "8.67.0",
     "@typescript-eslint/parser": "8.67.0",
@@ -39,7 +39,7 @@
     "eslint-plugin-local-rules": "3.0.2",
     "eslint-plugin-prettier": "5.5.6",
     "eslint-plugin-react": "7.37.5",
-    "eslint-plugin-react-hooks": "4.6.2",
+    "eslint-plugin-react-hooks": "7.1.1",
     "eslint-plugin-unused-imports": "4.4.1",
     "eslint-plugin-xstate": "3.2.1",
     "execa": "10.0.0",
@@ -48,8 +48,8 @@
     "license-checker": "25.0.1",
     "octokit": "5.0.5",
     "prettier": "3.9.4",
-    "react": "17.0.2",
-    "react-dom": "17.0.2",
+    "react": "19.2.8",
+    "react-dom": "19.2.8",
     "strong-mock": "~8.0.1",
     "stylelint": "17.14.0",
     "stylelint-config-recommended": "18.0.0",
