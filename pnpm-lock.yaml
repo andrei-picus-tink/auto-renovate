@@ -121,8 +121,8 @@ importers:
         specifier: 18.1.0
         version: 18.1.0
       stylelint-config-recommended:
-        specifier: 18.0.0
-        version: 18.0.0(stylelint@18.1.0)
+        specifier: 19.1.0
+        version: 19.1.0(stylelint@18.1.0)
       stylelint-config-styled-components:
         specifier: 0.1.1
         version: 0.1.1
@@ -4176,11 +4176,11 @@ packages:
   strong-mock@8.0.1:
     resolution: {integrity: sha512-4dtV6JNBaohZTVOMNkJtY1O60GXA9XWSvQIl5lX0obm44ptXuvK5v1uL5rA9C+fLqnsGL5eYHrXFPU5eMEj4RQ==}
 
-  stylelint-config-recommended@18.0.0:
-    resolution: {integrity: sha512-mxgT2XY6YZ3HWWe3Di8umG6aBmWmHTblTgu/f10rqFXnyWxjKWwNdjSWkgkwCtxIKnqjSJzvFmPT5yabVIRxZg==}
-    engines: {node: '>=20.19.0'}
+  stylelint-config-recommended@19.1.0:
+    resolution: {integrity: sha512-DurXBzvz2cmVX2rM1JMDCbPIq+MRKhIPY743lFk1DjUoyx7giLfN+HR8Hilw+kE2nE5blaXhVf66edvQGnLdwA==}
+    engines: {node: ^22.22.2 || ^24.15.0 || >=26.0.0}
     peerDependencies:
-      stylelint: ^17.0.0
+      stylelint: ^18.0.0
 
   stylelint-config-styled-components@0.1.1:
     resolution: {integrity: sha512-z5Xz/9GmvxO6e/DLzBMwkB85zHxEEjN6K7Cj80Bi+o/9vR9eS3GX3E9VuMnX9WLFYulqbqLtTapGGY28JBiy9Q==}
@@ -9547,7 +9547,7 @@ snapshots:
       jest-matcher-utils: 29.3.1
       lodash: 4.17.21
 
-  stylelint-config-recommended@18.0.0(stylelint@18.1.0):
+  stylelint-config-recommended@19.1.0(stylelint@18.1.0):
     dependencies:
       stylelint: 18.1.0
 
